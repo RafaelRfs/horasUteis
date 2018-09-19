@@ -1,3 +1,4 @@
+<?php
 function  getFeriados($ano = null)
 	{
 	if ($ano === null)
@@ -229,3 +230,4 @@ $dtx[3] =   '18:00'; // Hora Fim da Jornada de trabalho / Expediente
 // $dtx[4] = array('29/08');
 $horas_uteis = verificaDiaPorDia($dtx); // Retorna um array com horas uteis, dias_uteis, finais_semana e ultimo_dia util
 echo "Horas Uteis >> ".$horas_uteis;
+?>
